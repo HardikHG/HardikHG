@@ -426,7 +426,7 @@ def formatter(query_type, difference, funct_return=False, whitespace=0):
 
 if __name__ == '__main__':
     """
-    Anish Mane (AnishMane)
+    Hardik Gupta (HardikGupta)
     """
     print('Calculation times:')
     # define global variable for owner ID and calculate user's creation date
