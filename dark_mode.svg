@@ -10,6 +10,8 @@ text, tspan {white-space: pre;}
 
  <rect width="1200px" height="530px" fill="#161b22" rx="15"/>
   <text x="15" y="30" fill="#c9d1d9" font-family="monospace" font-size="5.5px" xml:space="preserve">
+    <rect width="1200px" height="530px" fill="#161b22" rx="15"/>
+  <text x="15" y="30" fill="#c9d1d9" font-family="monospace" font-size="10px">
     <tspan x="15" dy="1.2em">..............................:^!???Y5Y55YY55555Y555PPPP5555YY555Y?!^^::::::::::::::::::::::::::::::</tspan>
     <tspan x="15" dy="1.2em">............................:!?JYYYYY555555PPPPP55PPPGGGGPPP555555P5YJ7~::::::::::::::::::::::::::::</tspan>
     <tspan x="15" dy="1.2em">.........................:~7?YYYYYY55Y555PPGGGP5Y5PPPGGGGGGGGPP5PPPPPPP5J~::::::::::::::::::::::::::</tspan>
@@ -74,6 +76,7 @@ text, tspan {white-space: pre;}
     <tspan x="15" dy="1.2em">GPGGPGGPGBGBBGBBGBBGBBBBBB###&amp;&amp;&amp;&amp;&amp;&amp;##BGPPGGPGB##&amp;########B#BB#B##B##B#BB#BBBGBBGBBGBGBBGBBBBBBBBBBB#</tspan>
     <tspan x="15" dy="1.2em">GPGGPGBGGBGBBGBBGBBGBBGBBGBBGBBB##&amp;&amp;&amp;&amp;#BGPG##&amp;###########B#BB#BB#BB#BB#GBBGBGGBGBBGBGB|GBGB#BBBBBBB#</tspan>
   </text>
+
 <text x="550" y="30" fill="#c9d1d9">
 <tspan x="550" y="30">hardik@gupta</tspan>
 <tspan x="550" y="50">——————</tspan>
