@@ -1,5 +1,9 @@
-# 💫 About Me:
-🔭 I’m currently working on AI ML projects<br>👯 I’m looking to collaborate on Project where I learn new skills<br>🤝 I’m looking for help with <br>🌱 I’m currently learning Artificial Intelligence and Databases<br>💬 Ask me about Artificial Intelligence<br>⚡ Fun fact I believe every bug is an opportunity to learn something new.
+<a href="https://github.com/AnishMane/AnishMane">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/HardikHG/HardikHG/blob/477f1c907503997b56a994db32254e0b4cd65347/dark_mode.svg">
+    <img alt="Hardik Gupta's GitHub Profile README" src="https://raw.githubusercontent.com/AnishMane/AnishMane/main/light_mode.svg">
+  </picture>
+</a>
 
 
 ## 🌐 Socials:
