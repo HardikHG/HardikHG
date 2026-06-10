@@ -38,5 +38,5 @@ jobs:
           git config --global user.email "hardikcodeandprogram@gmail.com"
           git config --global user.name "HardikGupta/GitHub-Actions-Bot"
           git commit -m "Updated README" -a || echo "No changes to commit"
-          git pull --rebase origin main
+          git pull --rebase -X theirs origin main
           git push
