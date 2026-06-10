@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?><svg xmlns="http://www.w3.org/2000/svg" font-family="Andale Mono,AndaleMono,Consolas,monospace" width="1200px" height="550px" font-size="16px">
+<style>
+.keyColor {fill: #ffa657;}
+.valueColor {fill: #a5d6ff;}
+.addColor {fill: #3fb950;}
+.delColor {fill: #f85149;}
+.commentColor {fill: #8b949e;}
+text, tspan {white-space: pre;}
+</style>
+
+ <rect width="1200px" height="530px" fill="#161b22" rx="15"/>
+  <text x="15" y="30" fill="#c9d1d9" font-family="monospace" font-size="5.5px" xml:space="preserve">
+    <tspan x="15" dy="1.2em">..............................:^!???Y5Y55YY55555Y555PPPP5555YY555Y?!^^::::::::::::::::::::::::::::::</tspan>
+    <tspan x="15" dy="1.2em">............................:!?JYYYYY555555PPPPP55PPPGGGGPPP555555P5YJ7~::::::::::::::::::::::::::::</tspan>
+    <tspan x="15" dy="1.2em">.........................:~7?YYYYYY55Y555PPGGGP5Y5PPPGGGGGGGGPP5PPPPPPP5J~::::::::::::::::::::::::::</tspan>
+    <tspan x="15" dy="1.2em">.......................:!?YY5555Y555555555PPPGGP5555PGGGGGGGGGPPPPGGGGPPP5J7^:::::::::::::::::::::::</tspan>
+    <tspan x="15" dy="1.2em">..................::::~?YYY55PPP5555555555PPGGGGP55PPPPGGPGGPGGGGGGGGGGGGGGG57~^::::::::::::::::::::</tspan>
+    <tspan x="15" dy="1.2em">.........::.......:^~7JYY55P55555Y555PPPPPPPPGGGGGPPPPPGGGGGGGGGGBBBBGGGGGGBBG5J!^^^::::::::::::::::</tspan>
+    <tspan x="15" dy="1.2em">..........:..:....:~Y5555P55555PPPP5PPGGGGGPPPPGGGBGGGGGGGGBBBGGBBBBBBBBBGGGBBGPYJ?^::::::::::::::::</tspan>
+    <tspan x="15" dy="1.2em">...::.::.:::::...:~J55P55P55555555PP5PPPPGGGGGGGGBBBBBBBGBBBBBBBBBBBBBBBBBBGGGG5J?7^::::::::::::::::</tspan>
+    <tspan x="15" dy="1.2em">.:::::::::::::..:~JY55P555555PPPGGGGBBBBGBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBGPY?77~^^^^::::::::::::</tspan>
+    <tspan x="15" dy="1.2em">:::::::::::::..:!Y55555555Y5PPGGGGGBBBBBBBBBBBBBBBBBBBBBBBBBBB#BBBBBBBBBBBBBBGGPY?!~~^^^^^::::::::::</tspan>
+    <tspan x="15" dy="1.2em">:::::::::.::::.~Y5Y5555555Y5PGGGGGBBBBBBBGGGGGGGGGGGGGBBBBBBBBBBBBBB##BBBBBBBGGGGP5J7~^^::::::::::::</tspan>
+    <tspan x="15" dy="1.2em">:::::::::::::::?PP55555555YY5555PPPPPPPPP555555555555555PPPGGGGBBBBBB###BBBBBBBGGPPP5?~^::::::::::::</tspan>
+    <tspan x="15" dy="1.2em">::::::::::::::^YPPPPGPYJJ??77!77?JJYYJJJJJJJJJJJJJJYYYYYYY555PPPGGGBBB######BBBGGGP55P!^::::::::::::</tspan>
+    <tspan x="15" dy="1.2em">::::::::::::::~PGGGP5?!!!!!~~~~!!777??????????????JJJJYYYYYY55555PPGGBBBB##BBBBGGGPP?PJ:::::::::::::</tspan>
+    <tspan x="15" dy="1.2em">::::::::::::::~PGGPY7~~~~~~~~~~~~!!777777777??????JJYYYYYYYYY555555PGBBBBBBBBBBGGGGGJY7:::::::::::::</tspan>
+    <tspan x="15" dy="1.2em">:::::::::::::.^PPP5J!~~~~~~~~~~~~!!!777!!!7777???JJJYYYYYYYYY555555PGBBBBBBBBBBGBBBGJ~^:::::::::::::</tspan>
+    <tspan x="15" dy="1.2em">:::::::::::::.~PPP5?~~~~^^^^^^~~~!!!!!!!!!7777???JJJYYYYYYYYYY55555PGBBBBBBBBBBBBBBG7:::::::::::::::</tspan>
+    <tspan x="15" dy="1.2em">:::::::::::::.~PGPY!!!!~~^^^^~~~~!!!!!!!!!!7777???JJJYYYYYYYYYY555PPB#BBBBBBBBBBBBGY^:::::::::::::::</tspan>
+    <tspan x="15" dy="1.2em">::::::::::::::!PGPJ777????7!!!~~!!!!!!!!!!777777???JJJJYYYYYYYY55PPB######BBBBBBBG!::::::::::::::::</tspan>
+    <tspan x="15" dy="1.2em">::::::::::::::7PGY7!77?JJYYYJJ?!!!!!!!!7777?????JJJJYYYYYJJJYYYYY5PPG#######BBBBBGY:::::::::::::::::</tspan>
+    <tspan x="15" dy="1.2em">::::::::::::::!557~!7??JYYYYYYJJ?7!!77??JJJYYY555PPPPPPP55YYJJYYYY5PGB######BBBBBP!:::::::::::::::::</tspan>
+    <tspan x="15" dy="1.2em">::::::::::::::!YY!!JYY55PP5PP5YJ?7!!7?JY555PPGGGGGGPPPPPPPPP5YYYYYYYPGB#B###BBBBG7::::::::::::::::::</tspan>
+    <tspan x="15" dy="1.2em">::::::::::::::7Y7~7YY?YPG5?J5P5J7!~~!?Y55PPGGGBBBGPP55555555555YYYYYYPB#####BBBP?:::::::::::::::::::</tspan>
+    <tspan x="15" dy="1.2em">:::::::::::::^7?~~!!777?J??JYYJ?!!~~7?Y5PPPGGBBBBGGG5PPPPP55555YYYYYY5BBB##BBP5YJ~::::::::::::::::::</tspan>
+    <tspan x="15" dy="1.2em">:::::::::::::^77~~~!!!77?JJJ?7!!~~^!7JY555PPPGPPGGG5JJYPGGGPP555YYYYY5BBB#BG5Y5PP7::::::::::::::::::</tspan>
+    <tspan x="15" dy="1.2em">:::::::::::::~!~~~~!!!7777!~~~~~~^~!?JYY555555PPP555555PPPPPP555YYYYYPBBBBG55Y5PP?::::::::::::::::::</tspan>
+    <tspan x="15" dy="1.2em">:::::::::::::~!~^^^~~~~~~~~^^~~~^~!7?JJYYYYYYY55PPPPPPPP555555YYYYYYY5GBGPPP55Y5P7::::::::::::::::::</tspan>
+    <tspan x="15" dy="1.2em">::::::::::::^~~~^::^^~~~~!!~~~~^^~!7?JJYYYYYYYYYY55555555YYYYYYYYYYYY5GBG5PPPP5YY~:::::::::::::::::^</tspan>
+    <tspan x="15" dy="1.2em">::::::::::::~~~~^^^^~!77??7~~~^^~!7?JJJJYYYYYYJJJJJJJJJJJJYYYYYYYYYYY5PG5Y55PPYY?::::::::::::::::::^</tspan>
+    <tspan x="15" dy="1.2em">::::::::::::^~~~~~~!7?J5Y?!~~~^^!7?JJYYJJYY555YYJJJJJJJJJJJJYYYYYYYY55PPY5P555YY~:::::::::::::::::^^</tspan>
+    <tspan x="15" dy="1.2em">:::::::::::::^~~~!!77?Y5P5?!!!7?77?J555555YYYY5555YYJJJJJJJJJJYYYYYYYY55P55P5YY5Y!:::::::::::::^::^^^^</tspan>
+    <tspan x="15" dy="1.2em">::::::::::::::^!!7?YPG5J?7???JJJY5PPGGGGGPP555PP55YYYYYYYYYYYYYYYYYY555555YYYY7^:::::::::::::^^:^^^^</tspan>
+    <tspan x="15" dy="1.2em">::::::::::::::^!!7?YP5YJ?77???J555Y5GGBBGGPPPPPPPP5YYYYYYYYYYY5555555555555YYJ~::::::::::::::^^^^^^^</tspan>
+    <tspan x="15" dy="1.2em">:::::::::::::::~!77JYYJ???7777???JJY55PPPPGGPGGGGGP55555YYY5555555555555YYYYJ~:::::::::::::::^^^^^^^</tspan>
+    <tspan x="15" dy="1.2em">:::::::::::::::^!77?JJJYPPY!!!7?JYYYY55PPPPPPPGGGGGGPP55555555555555Y?~!777!^::::::::::::::^^^^^^^^^</tspan>
+    <tspan x="15" dy="1.2em">:::::::::::::::^!!77????JYJ~~:^^~77?J55PPPPPGGGGGGBGPPP555555555555Y7^:::::::^::::::::^^:^^^^^^^^^^^</tspan>
+    <tspan x="15" dy="1.2em">:::::::::::::~JP5!!7??7!!77?JJ7!!7!7?J5PYPPGGBGPPGGP55555555555555Y7^::::::::::^^^^:::^^^^^^^^^^^^^^</tspan>
+    <tspan x="15" dy="1.2em">:::::::::::^7PB#BJ77777!!!!~7???????JJY555PPPPPPPPP55555555555555J~::::::::::::::^^::^^^^^^^^^^^^^^^</tspan>
+    <tspan x="15" dy="1.2em">:::::::^^^~?P####G?77!77777!7???????JJY55PPPP5555PPP5555555555P5?^::::::::::::::::^^^^^^^^^^^^^^^^^^</tspan>
+    <tspan x="15" dy="1.2em">~~!!77????J5B#####G?7!!777??JJYYYYY55PPPPPPPP5555PPPPP55555PPP57^::::::::::::::^^:^^^^^^^^^^^^^^^^^^</tspan>
+    <tspan x="15" dy="1.2em">555555YYJJYPB&amp;#####P?7!!!!77?JY55PPPGGPPPPPP55555PPPPPPP5PPPPPPP5J7^:::^^^^::^^^^^^^^^^^^^^^^^^^^^^^</tspan>
+    <tspan x="15" dy="1.2em">PPP55YYJYJYP#&amp;#####BJ7!!!!~~~!7?JYY555PPPP5555555PPPPPPPPPGP5PBG#BG57^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</tspan>
+    <tspan x="15" dy="1.2em">555YYJYYYJYP####BBBGY?7!!!~~~!7???JJJYYY55555555PPPPPPGGGPPP5B#GB##BG5YYYYYYJJ??7!~~^^^^^^^^^^^^^^^^</tspan>
+    <tspan x="15" dy="1.2em">P5YYYYYYYYY5B#BBBBBG5J?77777??JJ?JYYY555555555PPPPPGGGGPPPP5G&amp;&amp;#G#&amp;##BGPGGBBBBBBGPP5YYJJJ?7777!!~^^^</tspan>
+    <tspan x="15" dy="1.2em">PYYYYYYYYYY5BBBBBBBGP5J????JY55YYY55PPPP555PPPPGGGGGGPPPPPPP#&amp;##BG#&amp;&amp;#BBPPPGGBBBBBGGPPPPPPPPPPP5YJ!~</tspan>
+    <tspan x="15" dy="1.2em">555JYYYYYYYPBBBBBBBGGP5J???JY5PPPPPGGGGGGGGGGGGGGGPPPPPPPPPG&amp;&amp;#BBGG####BBPPPPPGGGBBBGGPPPPPPPPPPPPP5</tspan>
+    <tspan x="15" dy="1.2em">5P5Y5YYYYYYPBBBGBBBBGGP5YJ????JJYY5PPGGGBBGGGGGGPPPPPPPP55P#&amp;&amp;##BGPGB####BGGGGGGGBBBBBGGGGGGGPGGGGGG</tspan>
+    <tspan x="15" dy="1.2em">PP55YYYYYYYGBBBGGBBBGGGP5YJJJJJJJJYYY5PPGGGGGGPPPPPPPPP5PPB&amp;&amp;&amp;###BGPPGB###BGGBBGBBBBGBGGGBBGGGGGGPPG</tspan>
+    <tspan x="15" dy="1.2em">P5P5Y5YYYYYGBBBBGGBBBGGGPP5YYJJJJJYYYY5PPPGGGPPPPPPPP5PPPG#&amp;&amp;&amp;#BBBGPPPPGB##BBBBGBBBBGGBGBG#BGGGGGGGG</tspan>
+    <tspan x="15" dy="1.2em">5PP555YYYY5GBBBBGGGBBGGGGGP55YYYYYY5555PPGGGGPPPPPPPPPPGG#&amp;&amp;&amp;###BBBPPPPPPGBBBGBBGBBBBGBBBBB#GGGGBGGG</tspan>
+    <tspan x="15" dy="1.2em">PGP5P5YYYY5GGBBBBGGGBGGGGGGPPP55555555PPPPGGPPPPPPPPPGGB##&amp;&amp;&amp;###BGBGPPPPPPPPGGGBBBBBBBBBBBB#BGBGGBGG</tspan>
+    <tspan x="15" dy="1.2em">GG5PPY5YYY5GGBBBBBGGGGGGGGGGGPPPPPPPPPPPPPPPPPPPPPPGGGB##&amp;&amp;#B#BGBGGBGGPPPPPPPPPGGBBBGBGBBBBB#GBBGBBG</tspan>
+    <tspan x="15" dy="1.2em">GPPG5PPY5Y5PGBBBGBGPGGGGGGGGGGGGGPPPPPGGGGPPPPPPPGGGB######BGGGPPGPB&amp;&amp;##BBBBBBBBGBBBBBGGBBB#B#BGBGBBB</tspan>
+    <tspan x="15" dy="1.2em">GGGGPP555Y5PGBB#BBBGPPPPGGGGGGGGGGPPPPGGGGGGGGGGGGGB#####BGGGPPGPGGB&amp;#&amp;&amp;&amp;&amp;&amp;&amp;###GGBBBBGGB#BB#BBBGBGBB</tspan>
+    <tspan x="15" dy="1.2em">GGBBB#BBBB##BGB####BPPPPPPPGGGGGGGPPPPPGGGGGGGGGGGB####BGPPPGGPBB#####&amp;#&amp;&amp;###BBBGGGBBBGGBBB#BBBGBBBB</tspan>
+    <tspan x="15" dy="1.2em">GPGBG###&amp;&amp;&amp;&amp;&amp;GPG####BGP55PPPPPPPPPPPPPPPPGGGGGGGGBBBBBBGPPGBB################BBBGBGGBBGGB#BB#BBBGBGB</tspan>
+    <tspan x="15" dy="1.2em">GPGGPGBGB##&amp;&amp;BGGBBB###BP5555555PPPPPPPPPPPPPPPGGBBBGGGGPPP######B##########BBBBBGBBPG#BGGB#BBBBBGBBB</tspan>
+    <tspan x="15" dy="1.2em">G5GGPGGPBBGB######BBB##BG5YYY5555555555PPPPPPPGBGGGGPPPPPG######B##B#######GBBGBBBBGGB#GBB#BBBBBBGBB</tspan>
+    <tspan x="15" dy="1.2em">G5GGPGGPGGPBBG###&amp;&amp;##BBBBBG5YYYY555555555PPPGGGGGGGPPPGB######B#B##B##B##B#GBBGBBGBBGB#BBBB#BBBGBBBB</tspan>
+    <tspan x="15" dy="1.2em">GPGGPGGPGGPBBGBBG###&amp;&amp;#B###BP555YYY555555PPGGGGGGGGGB#########B#BB#B##B##BBBGBGBBGBBGBGBGBGBBBBBBBBB</tspan>
+    <tspan x="15" dy="1.2em">GPGGPGGPGBGBBGBBGBBB######&amp;&amp;###BBGGPP555PPGGGGGGBB#######B#B##B##B#BB#BB#BBBGBBGBGBBGBBGBBBGBBBBBBB#</tspan>
+    <tspan x="15" dy="1.2em">GPGGPGGPGBGBBGBBGBBGBBBBBB###&amp;&amp;&amp;&amp;&amp;&amp;##BGPPGGPGB##&amp;########B#BB#B##B##B#BB#BBBGBBGBBGBGBBGBBBBBBBBBBB#</tspan>
+    <tspan x="15" dy="1.2em">GPGGPGBGGBGBBGBBGBBGBBGBBGBBGBBB##&amp;&amp;&amp;&amp;#BGPG##&amp;###########B#BB#BB#BB#BB#GBBGBGGBGBBGBGB|GBGB#BBBBBBB#</tspan>
+  </text>
+<text x="550" y="30" fill="#c9d1d9">
+<tspan x="550" y="30">hardik@gupta</tspan>
+<tspan x="550" y="50">——————</tspan>
+<tspan x="550" y="70" class="keyColor">OS</tspan>: <tspan class="valueColor">Windows 11</tspan>
+<tspan x="550" y="90" class="keyColor">Uptime</tspan>: <tspan class="valueColor">21 years, 6 months, 10 days</tspan>
+<tspan x="550" y="110" class="keyColor">Host</tspan>: <tspan class="valueColor">Vellore Institute of Technology</tspan><tspan class="commentColor"> #VIT</tspan>
+<tspan x="550" y="130" class="keyColor">Kernel</tspan>: <tspan class="valueColor">Computer Science and Engineering</tspan><tspan class="commentColor"> #CSE</tspan>
+<tspan x="550" y="150" class="keyColor">IDE</tspan>: <tspan class="valueColor">VSCode</tspan>
+<tspan x="550" y="190" class="keyColor">Languages</tspan>.<tspan class="keyColor">Programming</tspan>: <tspan class="valueColor">C++, Python, Java, JavaScript</tspan>
+<tspan x="550" y="210" class="keyColor">Languages</tspan>.<tspan class="keyColor">Computer</tspan>: <tspan class="valueColor">HTML, CSS, JSON, XML, LaTeX, YAML, Markdown</tspan>
+<tspan x="550" y="230" class="keyColor">Languages</tspan>.<tspan class="keyColor">Real</tspan>: <tspan class="valueColor">English, Hindi</tspan>
+<tspan x="550" y="270" class="keyColor">Hobbies</tspan>.<tspan class="keyColor">Software</tspan>: <tspan class="valueColor">Video Editing</tspan>
+<tspan x="550" y="290" class="keyColor">Hobbies</tspan>.<tspan class="keyColor">Hardware</tspan>: <tspan class="valueColor">Travelling</tspan>
+<tspan x="550" y="330" class="keyColor">Contact</tspan>:
+<tspan x="550" y="350">——————</tspan>
+<tspan x="550" y="370" class="keyColor">Email</tspan>: <tspan class="valueColor">hardikcodeandprgram@gmail.com</tspan>
+<tspan x="550" y="390" class="keyColor">LinkedIn</tspan>: <tspan class="valueColor">HardikGupta</tspan>
+<tspan x="550" y="410" class="keyColor">Discord</tspan>: <tspan class="valueColor">|| DED DUMPLING ||</tspan>
+<tspan x="550" y="450" class="keyColor">GitHub Stats</tspan>:
+<tspan x="550" y="470">——————</tspan>
+<tspan x="550" y="490" class="keyColor">Repos</tspan>: <tspan class="valueColor">37</tspan> {<tspan class="keyColor">Contributed</tspan>: <tspan class="valueColor">38</tspan>}  | <tspan class="keyColor">Commmits</tspan>: <tspan class="valueColor">1,851  </tspan>| <tspan class="keyColor">Stars</tspan>: <tspan class="valueColor">0</tspan>
+<tspan x="550" y="510" class="keyColor">Followers</tspan>: <tspan class="valueColor">5   </tspan>| <tspan class="keyColor">Lines of Code</tspan>: <tspan class="valueColor">4,072,737</tspan> (<tspan class="addColor">4,183,630++</tspan>, <tspan class="delColor">110,893--</tspan>)
+</text>
+
+</svg>
