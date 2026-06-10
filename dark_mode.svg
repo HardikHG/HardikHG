@@ -8,73 +8,49 @@
 text, tspan {white-space: pre;}
 </style>
 
- <rect width="1200px" height="530px" fill="#161b22" rx="15"/>
+<rect width="1200px" height="530px" fill="#161b22" rx="15"/>
   <text x="15" y="30" fill="#c9d1d9" font-family="monospace" font-size="10px">
-    <tspan x="15" dy="1.2em">#BGPP55555YY55555Y555PPPP5555YY555PB#&;</tspan>
-    <tspan x="15" dy="1.2em">G5YYYYYY555555PPPPP55PPPGGGGGP5555555PPGGB&;</tspan>
-    <tspan x="15" dy="1.2em">&BP5YYY5YY55Y5Y5PPGGGP5Y5PPPGGGGGGGGPP55PPPPPPGB&</tspan>
-    <tspan x="15" dy="1.2em">GYYY5555Y5555555Y5PPPGGP5555PGGGGGGGGGPPPPGGGGGPPGB#</tspan>
-    <tspan x="15" dy="1.2em">#5YYY5PPPP555555555PPGGGBBG55PPPPGPPGPPGPGGGGGGGGGGGGGG#&</tspan>
-    <tspan x="15" dy="1.2em">BPYYY55P55555Y555PPPPPPPPGGGBGPPPPPGGGGBGGGGGBBBBGGGGGGBBGPG&</tspan>
-    <tspan x="15" dy="1.2em">BY5555P55555PPPP5PPGGGGGPPPPGGGBBGGGGGGGBBBGBBBBBBBBBBGGGBBGGGBB</tspan>
-    <tspan x="15" dy="1.2em">BY5PP55P55555555PP55PPPGGGGGGGGBBBBBBBGBBBBBBBBBBBBBBBBBBGGGBGGBB&</tspan>
-    <tspan x="15" dy="1.2em">BYY55P5555555PPGGGGBBBBGBBBBBBBBBBBBB#BBBBBBBBBBBBBBBBBBBBBBBGPBBB&&</tspan>
-    <tspan x="15" dy="1.2em">B5555555Y5Y5PPGGGBGBBBB##BBBBBBBBBBBBBBBBBBBBB##BBB#BBBBBBBBBGGPPB##&</tspan>
-    <tspan x="15" dy="1.2em">#5PY5555555Y5PGGGGGBBBBBBBBBGGGGGGGGGGGBBBBBBBBBB##BBB##BBBBBBGGGGGGPGB&</tspan>
-    <tspan x="15" dy="1.2em">PPP5555555555555PPPPPPPPPP555555555555555PPPGGGGBBBBB#####BBBBBBGGPPGG#&</tspan>
-    <tspan x="15" dy="1.2em">&PPGPPGPYJJJ?77!77?JJYYJJJJJJJJJJJJJJJYYJYYYY555PPGGGBBB######B#BGGGPGBG#</tspan>
-    <tspan x="15" dy="1.2em">#PGGGP57!!!!!~~~~~!7777?????????????JJJJYYYYYY55555PPGGBBBB###BBBGGGGG#BB</tspan>
-    <tspan x="15" dy="1.2em">#PGGP57~~~~~~~~~~~~!!777777777??????JJYYYYYYYYY555555PGBBBBBBBBBBGGGGGBB#</tspan>
-    <tspan x="15" dy="1.2em">@&aGPP5J!~~~~~~~~~~~~!!!777!!!7777???JJYYYYYYYYYY555555PGBBBBBBBBBBBBBBGB&</tspan>
-    <tspan x="15" dy="1.2em">#PPP5?~~~^^^^^^~...~!!!77!!!!77777??JJYYYYYYYYYYY55555PGBBBBBBBBBBBBBBG#</tspan>
-    <tspan x="15" dy="1.2em">#PGPY!!!!~^^::^~~~~!!!!!!!!!!7777???JJYYYYYYYYYYY555PPB#BB#B#BBBBBBBGG</tspan>
-    <tspan x="15" dy="1.2em">BPGP?7??????7!!~~~~!!!!!!!!!777777???JJJJJYYYYYYYY55PPB#######BBBBBBG&</tspan>
-    <tspan x="15" dy="1.2em">GPGY!!!7?JYY5YYJ?!!!!!!!!77777????JJJJJYYJJJJJYYYYY5PPG########BBBBGB</tspan>
-    <tspan x="15" dy="1.2em">P5P7~!7??JYY5YYYJJ?7!!77??JJJYYY555PPPPPPP55YYJJYYYY5PGB######BBBBBG&</tspan>
-    <tspan x="15" dy="1.2em">?Y5~!Y55YYPP5PP5YJ?7!!7JYY55PPPGGGGGGPPPPPPPPP5YYYYYYYPG######BBBBB#</tspan>
-    <tspan x="15" dy="1.2em">B757~?Y5?YPG5?J5P5J7!~~!?Y5PPPGGGBBBGP5555555555P5YYYYYYPB######BBGB</tspan>
-    <tspan x="15" dy="1.2em">G!?~~!!!!!????JYYJ?!!~~7?Y5PPPGBBBBBGGG5PGGPP55555YYYYYY5B#B###BP5YY#</tspan>
-    <tspan x="15" dy="1.2em">57!~~~!!!7??JYYJ7!!~^^!7JY555PPPGPPGGG5?JY5GGGPP555YYYYY5BBB#BG5Y5PPP</tspan>
-    <tspan x="15" dy="1.2em">?!~~~~!!!7777!~~~~~^^~!?JYY555555PPP555Y555PPPPPP55YYYYYPBBBBG55YYPPP</tspan>
-    <tspan x="15" dy="1.2em">#!!~^^^~~~~~^^~^^~~~^~!7?JYYYYYYYY5PPPPPPPPP555555YYYYYYY5BBBPPP55Y5PG</tspan>
-    <tspan x="15" dy="1.2em">5~~~^:::^^~~~!!~~~~^^~!??JJYYYYYYYJYY555P55555YYYYYYYYYYY5GBG5PPPP5Y5&</tspan>
-    <tspan x="15" dy="1.2em">?~~^^^^^~!77?J7~~~^^~!7?JJJJYYYYYYJJJJJJJJJJJJYYYYYYYYYYY5PG5Y55PPYYG</tspan>
-    <tspan x="15" dy="1.2em">J^~~~~~!7?J55?!~!~^^!7?JJJJJJYY555YYJJJJJJJJJJJYYYYYYYYY55PPY5P555Y5&</tspan>
-    <tspan x="15" dy="1.2em">#Y7~!!7?Y5G5?!~!7?77?Y555555YYJY5555YYJJJJJJJJJJYYYYYYYY55P5PP5YY5Y#</tspan>
-    <tspan x="15" dy="1.2em">B!!7?YPG5J?????JJJY5PGGGGGGGPP55PPPYYYYYYYYYYYYYYYYYYY555555YYYJP</tspan>
-    <tspan x="15" dy="1.2em">&7!7JYP5YJ?77???J555Y5GBBBGGPPPPPPGP5YYYYYYYYYYY5555555555555YY5&</tspan>
-    <tspan x="15" dy="1.2em">J!77JYJY??77777???JJY55PPPPGGGGGGGGP55555Y5555555555555P5YYYY5&</tspan>
-    <tspan x="15" dy="1.2em">G!77?JJJYGGY~7!7?JYYYY5P5PPPPPPGGGBGGPP555555555555555B&#BGB#</tspan>
-    <tspan x="15" dy="1.2em">&7!77???7JYY~^:^:~!!?J55PPPPPGGGGGBBGPPPP555555555555B</tspan>
-    <tspan x="15" dy="1.2em">#BB5!!7??7!!!7?JY7~!7!!?J5PYPPGBBGPPGGP555555555555555#</tspan>
-    <tspan x="15" dy="1.2em">&GGB##J!7777!!7~~7??????JJJY55PPPPPPPPPP55555555555555G&</tspan>
-    <tspan x="15" dy="1.2em">&BYP####B?77!77777!77???77??JYY5PPPP5555PPPP555555555PPB</tspan>
-    <tspan x="15" dy="1.2em">&#BBGGP5YYJ5B####&G77!!777?JJYYYJYY55PPPPPPPP5555PPPPP55555PPPP#</tspan>
-    <tspan x="15" dy="1.2em">P55555YJJJYPB&&&&#G?7!!!!7?JY55PPGGGGGPPPPPP5555PPPPPPP5PPPP5PBBBB&</tspan>
-    <tspan x="15" dy="1.2em">PPP55YJJYJYP#&#####BJ7!~!!~~~!7?JYY55PPPPPP555555PPPPPPPPGGP5PBG#BGGB&</tspan>
-    <tspan x="15" dy="1.2em">555YYJYYYY55#&##BBBBY?7!!~~~~!77??JJJYYY55555555PPPPPPGGGGP55B&GB&##GGPGGGGGBBB###&&</tspan>
-    <tspan x="15" dy="1.2em">P5YYJYYYYJY5##BBBBBGPJ?77777?JJJ?JYY5555555555PPPPPGGGGPPPP5G&&#P#&&#BGPGGBBBBBGGPPPPGGBBBBB###&</tspan>
-    <tspan x="15" dy="1.2em">GYYYYYJYYYY5BBBBBBBGG5J???JJY55YYY5PPPPP555PPPGGGGGGGPPPPP5P#&&#BG#&&#BBPPPGGBBBBBGGPPPPPPP5P5PPPG&@</tspan>
-    <tspan x="15" dy="1.2em">555JYYYYYYYPBBBBBBBGGP5J???JY5PPPPPGGGGGGGGGGGGGGGGPPPPPP55G&&&BBPG#&&##BPPPPPPGGBBBGGPPPPPPPPPPPPPG</tspan>
-    <tspan x="15" dy="1.2em">5PYY5JYYYYYPBBBGBBBBGGP5YJ????JJY55PGGGBBBBGGGGGPPPPPPPPP5P#&&##BGPGB#&##BPGGGGGGBBBBBGGGBGGGPGGGGGG</tspan>
-    <tspan x="15" dy="1.2em">PPY5YYYYYYYGBBBGGBBBGGGP5YJJJJJJJJJYY5PPGGGGGGPPPPPPPPP55PB&&&###BPPPGB###BGBBBBBBBBGBGGGB#GGPGGPPPG</tspan>
-    <tspan x="15" dy="1.2em">G5P5Y5YYYYYGBBBBGGBBBGGGGP5YYJJJJJYYYY5PPPGGGPPPPPPP55PPPG#&&&#BBBGPPPPGB##BGB#GBBBBGGBGBG#BGGGGGGPG</tspan>
-    <tspan x="15" dy="1.2em">5PPY55YYYY5GBB#BGGGBBGGGGGP55YYYYYY5555PPGGGGPPPPPPPPPPGG#&&&###BBBPPPPPPGBBBGGBGBBBBGBGBBB#GGGGBGGG</tspan>
-    <tspan x="15" dy="1.2em">5GP5PYYYYY5GGBBBBGGGBGGGGGGPPP55555555PPPPGGPPPPPPPPPGGB#&&&&###BGBGPPPPPPPPGGPBBBBGBBBBBBB#BGBGBBGG</tspan>
-    <tspan x="15" dy="1.2em">GG5PPY5YYY5GGBBBBBGGGGGGGGGGGPPPPPPPPPPPPPPPPPPPPPPGGGB##&&#B#BGBGPBGPPPPPPPPPPGBBBBGBG#BB###GBBGBBG</tspan>
-    <tspan x="15" dy="1.2em">GPPG5PPY5Y5GBBBGGBGPGGGGGGGGGGGGGGPPPPGGGGPPPPPPPGGGB###BGGGPPGPB&;&##BBBBB#BGBBBBBBGBBB#B#BGBGBBB</tspan>
-    <tspan x="15" dy="1.2em">BGGPPP555Y5PGBG##BBGPPPPGGGGGGGGGGGPPPGGGGGGGGGGGGGB#####BGGGPPG5PGB&#&&&&&&###GGBBBBGGB#BB#B#BGBGBB</tspan>
-    <tspan x="15" dy="1.2em">BBBB##BBBB##BGB####BP5PPPPPGGGGGGGPPPPPGGGGGGGGGGGB####BGPPPPPPBB###&#&#&&###BBGGGGBBBGB#BB#BBBGBBBB</tspan>
-    <tspan x="15" dy="1.2em">GPGBG###&&&&&P5B#####G555PPPPPPGPPPPPPPPPGGGGGGGGB#BBBBGP5GBB##&#########&###GBBGBGGB#GGB#BB#BBBGBGB</tspan>
-    <tspan x="15" dy="1.2em">GPGGPGGG###&&BPGBBB###BP5555555PPPPPPPPPPPPPPPPGBBBGGGGPPP######B####B#####B#BBBGBBPB#BGGB#B#BBBGBBB</tspan>
-    <tspan x="15" dy="1.2em">G5GGPGGPBBGB##&###BBB###B5YYY5555555555PPPPPPPBBGGGGPPPPPG######B##B#######GBBGBBGBGG##GBG#BB#BBBGBB</tspan>
-    <tspan x="15" dy="1.2em">G5GGPGGPGGPBBG###&&#BBB##GYYYYY555555555PPPGGGGGGGPPPPB########B##B##B##B#GGBGBBGBBGG#BBBB#BBBGBBBB</tspan>
-    <tspan x="15" dy="1.2em">G5GGPGGPGGPBBGBBG###&&#B###BP55YYYYY55555PPGGGGGPPPGB######B#####B#B##B##BBBGBGBBGBBGBGBGBGBBGBBBBBB</tspan>
-    <tspan x="15" dy="1.2em">GPGGPGGPGBGBBGBBGBBGB#####&&&##BBGGP55555GBGGGGGB##&&###B#B##B##B####BB#BBBGBBBBBBBBBBGBBBGBBBBBBB#</tspan>
-    <tspan x="15" dy="1.2em">BPGBPGGPGBGBBGBBPBBGBBGB#B###&&&&&##BGPGBGPGB##&####&B##B#BB#B##B##B#BB#BBBGBBGBBBBBBBGBG#BBBGBBBB#</tspan>
-    <tspan x="15" dy="1.2em">BPGBPGBPGBPBBPBBPBBGBBGBBGBBGBBB##&&&&&#PPG##&##&#####B##B#BB#BB#BB#G##G#BGBGGBGBBGBGBBGBGB#G#BBB#B#</tspan>
-  </text>
-   
+    <tspan x="15" dy="1.2em">                               ++++++++++++++===++======+++++++==+=++=                              </tspan>
+    <tspan x="15" dy="1.2em">                             +++++++++=++++=====++====--===============+                            </tspan>
+    <tspan x="15" dy="1.2em">                          ++*+++++++++++=======++======-=-================                          </tspan>
+    <tspan x="15" dy="1.2em">                        ++++++++++++=++++=======++=====------===============                        </tspan>
+    <tspan x="15" dy="1.2em">                       +++++====+++=====+====================-====----========                      </tspan>
+    <tspan x="15" dy="1.2em">                  ++=**++++=====+++++==++=====---=+==========-==----=-==----=====..+=               </tspan>
+    <tspan x="15" dy="1.2em">                  +++++++++==+=++++============---========----=--------==-----======                </tspan>
+    <tspan x="15" dy="1.2em">                   ++==+=====+=========----======---==--=----------------------=====                </tspan>
+    <tspan x="15" dy="1.2em">                  *++======++=======++====----=--------------------------------=======+             </tspan>
+    <tspan x="15" dy="1.2em">                 *++++==++++++======----=-------------------------------------====+===+             </tspan>
+    <tspan x="15" dy="1.2em">                *++++++++++====-----------------------------------------------==+++=====+           </tspan>
+    <tspan x="15" dy="1.2em">               *++++=+==++++====----------------------------------------------=-==++====            </tspan>
+    <tspan x="15" dy="1.2em">               +==++=++==++====-----------============---------------------------=======-           </tspan>
+    <tspan x="15" dy="1.2em">             @*+======++=++++++==========+++++++++++++++======-----------------=========-           </tspan>
+    <tspan x="15" dy="1.2em">             =+=====-=+****####***++++++***++****+++++++++++======-------------=-======--           </tspan>
+    <tspan x="15" dy="1.2em">             ++======*#######%%###*****************+++++++++++=+====--------------===-=+            </tspan>
+    <tspan x="15" dy="1.2em">              +=--==*######%%%%%####***************++++++++++=++++===---------------===-            </tspan>
+    <tspan x="15" dy="1.2em">              +====+######%%%%%%#####**####*******++++++++++++=+++===---------------===             </tspan>
+    <tspan x="15" dy="1.2em">              +===+*##%%%%%%%%%%############******++++++++++++==++==---------------==               </tspan>
+    <tspan x="15" dy="1.2em">              +====*%%%%%%%%%%%##############******++++++++++++==+==---------------==               </tspan>
+    <tspan x="15" dy="1.2em">              +=-=+#####%%%%%%%##############******+++++++++++++++==---------------==               </tspan>
+    <tspan x="15" dy="1.2em">              *=-=*********#################*********++++++++++++===---------------=                </tspan>
+    <tspan x="15" dy="1.2em">              +=-+###***+++++**##########***********++++++++++++++==--------------=+                </tspan>
+    <tspan x="15" dy="1.2em">              *==*###***+++++++**#####*****++++++========+++++++++===-------------=                 </tspan>
+    <tspan x="15" dy="1.2em">              #+=##*++++=====+****##**+++++====------=======++++++++=-------------=                 </tspan>
+    <tspan x="15" dy="1.2em">             @#++%*==+==-=++==++*####*++=======-===++++=======+++++++=-----------=                  </tspan>
+    <tspan x="15" dy="1.2em">             %#+##***#*==+**+==+###%#*++====------======+++++=+++++++=--------=++@                  </tspan>
+    <tspan x="15" dy="1.2em">                                   :**####***+++++++++===--:-:                                      </tspan>
+    <tspan x="15" dy="1.2em">                                  :+*+**#####***+++=====--:.*-:                                     </tspan>
+    <tspan x="15" dy="1.2em">                               :+%%%#-*********+=======--:.:**=::                                   </tspan>
+    <tspan x="15" dy="1.2em">                          :-+##%%%@@%--+******+++=======:..+*****+-.                                </tspan>
+    <tspan x="15" dy="1.2em">                       :+*######%%%%@*-:+*++++++======+...:**********+:                             </tspan>
+    <tspan x="15" dy="1.2em">                 :-+***###########%%%#--:-++++++++=++=....=************+++=:                        </tspan>
+    <tspan x="15" dy="1.2em">            :=*******###*############*:::::===+==++*:.....****************+++=:                     </tspan>
+    <tspan x="15" dy="1.2em">       :=+****##*#####################:::::::===++=......-*****************+++++++-:                </tspan>
+    <tspan x="15" dy="1.2em">     :-###############################=::.....-+=........+******************+++++++++++-:           </tspan>
+    <tspan x="15" dy="1.2em">     :*###################%@%#########+:..:---::-==:....:***************++*****+++++++++*=          </tspan>
+    <tspan x="15" dy="1.2em">     :#################**###%#########*:=@%*##*+***#@+:.-*********###****+*+++++++++++++*+:         </tspan>
+    <tspan x="15" dy="1.2em">    :##############******####****######-==#**+++**%#==--******************++++++++++++++*+:         </tspan>
+</text>
+
 <text x="550" y="30" fill="#c9d1d9">
 <tspan x="550" y="30">hardik@gupta</tspan>
 <tspan x="550" y="50">——————</tspan>
@@ -90,7 +66,7 @@ text, tspan {white-space: pre;}
 <tspan x="550" y="290" class="keyColor">Hobbies</tspan>.<tspan class="keyColor">Hardware</tspan>: <tspan class="valueColor">Travelling</tspan>
 <tspan x="550" y="330" class="keyColor">Contact</tspan>:
 <tspan x="550" y="350">——————</tspan>
-<tspan x="550" y="370" class="keyColor">Email</tspan>: <tspan class="valueColor">hardikcodeandprgram@gmail.com</tspan>
+<tspan x="550" y="370" class="keyColor">Email</tspan>: <tspan class="valueColor">hardikcodeandprogram@gmail.com</tspan>
 <tspan x="550" y="390" class="keyColor">LinkedIn</tspan>: <tspan class="valueColor">HardikGupta</tspan>
 <tspan x="550" y="410" class="keyColor">Discord</tspan>: <tspan class="valueColor">|| DED DUMPLING ||</tspan>
 <tspan x="550" y="450" class="keyColor">GitHub Stats</tspan>:
