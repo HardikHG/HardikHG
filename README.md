@@ -1,7 +1,7 @@
-<a href="https://github.com/AnishMane/AnishMane">
+<a href="https://github.com/HardikHG/HardikHG">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/HardikHG/HardikHG/blob/main/dark_mode.svg">
-    <img alt="Hardik Gupta's GitHub Profile README" src="https://github.com/HardikHG/HardikHG/blob/main/light_mode.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HardikHG/HardikHG/main/dark_mode.svg">
+    <img alt="Hardik Gupta's GitHub Profile README" src="https://raw.githubusercontent.com/HardikHG/HardikHG/main/light_mode.svg">
   </picture>
 </a>
 
