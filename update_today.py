@@ -233,7 +233,7 @@ def svg_overwrite(filename, repo_data, contrib_data, commit_data, star_data, fol
         if tspan.firstChild is None:
             continue
         
-        current_text = tspan.firstChild.data
+        current_text = str(tspan.firstChild.data)  # Convert to string
         
         # Update Repos count (first valueColor after "Repos:")
         if 'Repos' in current_text and repos_found == 0:
