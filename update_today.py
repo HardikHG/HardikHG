@@ -220,37 +220,81 @@ def force_close_file(data, cache_comment):
 def stars_counter(data):
     return sum(node['node']['stargazers']['totalCount'] for node in data if node and node['node'])
 
-def svg_overwrite(filename, age_data, commit_data, star_data, repo_data, contrib_data, follower_data, loc_data):
+def svg_overwrite(filename, repo_data, contrib_data, commit_data, star_data, follower_data, loc_data):
     if not os.path.exists(filename): 
         return
+    
     svg = minidom.parse(filename)
-    tspan = svg.getElementsByTagName('tspan')
-    tspan[44].firstChild.data = age_data
-    tspan[79].firstChild.data = repo_data
-    tspan[81].firstChild.data = contrib_data
-    tspan[83].firstChild.data = commit_data
-    tspan[85].firstChild.data = star_data
-    tspan[87].firstChild.data = follower_data
-    tspan[89].firstChild.data = loc_data[2]
-    tspan[90].firstChild.data = loc_data[0] + '++'
-    tspan[91].firstChild.data = loc_data[1] + '--'
+    tspans = svg.getElementsByTagName('tspan')
+    
+    # Find and update tspan elements by looking for specific patterns
+    repos_found = 0
+    for i, tspan in enumerate(tspans):
+        if tspan.firstChild is None:
+            continue
+        
+        current_text = tspan.firstChild.data
+        
+        # Update Repos count (first valueColor after "Repos:")
+        if 'Repos' in current_text and repos_found == 0:
+            # Find the next valueColor tspan
+            for j in range(i, min(i + 3, len(tspans))):
+                if tspans[j].getAttribute('class') == 'valueColor' and tspans[j].firstChild:
+                    tspans[j].firstChild.data = repo_data
+                    repos_found += 1
+                    break
+        
+        # Update Contributed count
+        if 'Contributed' in current_text:
+            for j in range(i, min(i + 3, len(tspans))):
+                if tspans[j].getAttribute('class') == 'valueColor' and tspans[j].firstChild:
+                    tspans[j].firstChild.data = contrib_data
+                    break
+        
+        # Update Commits count
+        if 'Commmits' in current_text:
+            for j in range(i, min(i + 3, len(tspans))):
+                if tspans[j].getAttribute('class') == 'valueColor' and tspans[j].firstChild:
+                    tspans[j].firstChild.data = commit_data
+                    break
+        
+        # Update Stars count
+        if 'Stars' in current_text and 'GitHub' not in current_text:
+            for j in range(i, min(i + 3, len(tspans))):
+                if tspans[j].getAttribute('class') == 'valueColor' and tspans[j].firstChild:
+                    tspans[j].firstChild.data = star_data
+                    break
+        
+        # Update Followers count
+        if 'Followers' in current_text:
+            for j in range(i, min(i + 3, len(tspans))):
+                if tspans[j].getAttribute('class') == 'valueColor' and tspans[j].firstChild:
+                    tspans[j].firstChild.data = follower_data
+                    break
+        
+        # Update Lines of Code
+        if 'Lines of Code' in current_text:
+            for j in range(i, min(i + 3, len(tspans))):
+                if tspans[j].getAttribute('class') == 'valueColor' and tspans[j].firstChild:
+                    tspans[j].firstChild.data = loc_data[2]
+                    break
+        
+        # Update additions (addColor)
+        if tspan.getAttribute('class') == 'addColor' and tspan.firstChild:
+            tspan.firstChild.data = loc_data[0] + '++'
+        
+        # Update deletions (delColor)
+        if tspan.getAttribute('class') == 'delColor' and tspan.firstChild:
+            tspan.firstChild.data = loc_data[1] + '--'
+    
     with open(filename, mode='w', encoding='utf-8') as f:
         f.write(svg.toxml('utf-8').decode('utf-8'))
 
 def commit_counter(comment_size):
     filename = 'cache/' + hashlib.sha256(USER_NAME.encode('utf-8')).hexdigest() + '.txt'
-    try:
-        with open(filename, 'r') as f: 
-            data = f.readlines()[comment_size:]
-        total = 0
-        for line in data:
-            if line.strip():
-                parts = line.split()
-                if len(parts) > 2 and parts[2].isdigit():
-                    total += int(parts[2])
-        return total
-    except (FileNotFoundError, ValueError, IndexError):
-        return 0
+    with open(filename, 'r') as f: 
+        data = f.readlines()[comment_size:]
+    return sum(int(line.split()[2]) for line in data if line.strip())
 
 def user_getter(username):
     query_count('user_getter')
@@ -286,9 +330,6 @@ if __name__ == '__main__':
     OWNER_ID, acc_date = user_data
     formatter('account data', user_time)
     
-    age_data, age_time = perf_counter(daily_readme, datetime.datetime(2004, 09, 03))
-    formatter('age calculation', age_time)
-    
     total_loc, loc_time = perf_counter(loc_query, ['OWNER', 'COLLABORATOR', 'ORGANIZATION_MEMBER'], 7)
     formatter('LOC (cached)', loc_time) if total_loc[-1] else formatter('LOC (no cache)', loc_time)
     
@@ -318,8 +359,8 @@ if __name__ == '__main__':
     follower_data = formatter('follower counter', follower_time, follower_data, 4)
     
     loc_svg_packet = ['{:,}'.format(total_loc[0]), '{:,}'.format(total_loc[1]), '{:,}'.format(total_loc[2])]
-    svg_overwrite('dark_mode.svg', age_data, commit_data, star_data, repo_data, contrib_data, follower_data, loc_svg_packet)
-    svg_overwrite('light_mode.svg', age_data, commit_data, star_data, repo_data, contrib_data, follower_data, loc_svg_packet)
+    svg_overwrite('dark_mode.svg', repo_data, contrib_data, commit_data, star_data, follower_data, loc_svg_packet)
+    svg_overwrite('light_mode.svg', repo_data, contrib_data, commit_data, star_data, follower_data, loc_svg_packet)
     
     try:
         with open("README.template.md", "r", encoding="utf-8") as t_file:
@@ -331,7 +372,7 @@ if __name__ == '__main__':
         print("\n⚠️ Notice: 'README.template.md' was not found.")
         
     print('\033[F\033[F\033[F\033[F\033[F\033[F\033[F\033[F',
-          '{:<21}'.format('Total function time:'), '{:>11}'.format('%.4f' % (user_time + age_time + loc_time + commit_time + star_time + repo_time + contrib_time)),
+          '{:<21}'.format('Total function time:'), '{:>11}'.format('%.4f' % (user_time + loc_time + commit_time + star_time + repo_time + contrib_time)),
           ' s \033[E\033[E\033[E\033[E\033[E\033[E\033[E\033[E', sep='')
           
     print('Total GitHub GraphQL API calls:', '{:>3}'.format(sum(QUERY_COUNT.values())))
