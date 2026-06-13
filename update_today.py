@@ -220,7 +220,7 @@ def force_close_file(data, cache_comment):
 def stars_counter(data):
     return sum(node['node']['stargazers']['totalCount'] for node in data if node and node['node'])
 
-def svg_overwrite(filename, repo_data, contrib_data, commit_data, star_data, follower_data, loc_data):
+def svg_overwrite(filename, age_data, repo_data, contrib_data, commit_data, star_data, follower_data, loc_data):
     if not os.path.exists(filename): 
         return
     
@@ -229,15 +229,24 @@ def svg_overwrite(filename, repo_data, contrib_data, commit_data, star_data, fol
     
     # Find and update tspan elements by looking for specific patterns
     repos_found = 0
+    uptime_found = 0
+    
     for i, tspan in enumerate(tspans):
         if tspan.firstChild is None:
             continue
         
         current_text = str(tspan.firstChild.data)  # Convert to string
         
+        # Update Uptime/Age (first valueColor after "Uptime:")
+        if 'Uptime' in current_text and uptime_found == 0:
+            for j in range(i, min(i + 3, len(tspans))):
+                if tspans[j].getAttribute('class') == 'valueColor' and tspans[j].firstChild:
+                    tspans[j].firstChild.data = age_data
+                    uptime_found += 1
+                    break
+        
         # Update Repos count (first valueColor after "Repos:")
         if 'Repos' in current_text and repos_found == 0:
-            # Find the next valueColor tspan
             for j in range(i, min(i + 3, len(tspans))):
                 if tspans[j].getAttribute('class') == 'valueColor' and tspans[j].firstChild:
                     tspans[j].firstChild.data = repo_data
@@ -330,6 +339,9 @@ if __name__ == '__main__':
     OWNER_ID, acc_date = user_data
     formatter('account data', user_time)
     
+    age_data, age_time = perf_counter(daily_readme, datetime.datetime(2004, 9, 3))
+    formatter('age calculation', age_time)
+    
     total_loc, loc_time = perf_counter(loc_query, ['OWNER', 'COLLABORATOR', 'ORGANIZATION_MEMBER'], 7)
     formatter('LOC (cached)', loc_time) if total_loc[-1] else formatter('LOC (no cache)', loc_time)
     
@@ -359,13 +371,13 @@ if __name__ == '__main__':
     follower_data = formatter('follower counter', follower_time, follower_data, 4)
     
     loc_svg_packet = ['{:,}'.format(total_loc[0]), '{:,}'.format(total_loc[1]), '{:,}'.format(total_loc[2])]
-    svg_overwrite('dark_mode.svg', repo_data, contrib_data, commit_data, star_data, follower_data, loc_svg_packet)
-    svg_overwrite('light_mode.svg', repo_data, contrib_data, commit_data, star_data, follower_data, loc_svg_packet)
+    svg_overwrite('dark_mode.svg', age_data, repo_data, contrib_data, commit_data, star_data, follower_data, loc_svg_packet)
+    svg_overwrite('light_mode.svg', age_data, repo_data, contrib_data, commit_data, star_data, follower_data, loc_svg_packet)
     
     print("\n✅ SVG files updated successfully!")
         
     print('\033[F\033[F\033[F\033[F\033[F\033[F\033[F\033[F',
-          '{:<21}'.format('Total function time:'), '{:>11}'.format('%.4f' % (user_time + loc_time + commit_time + star_time + repo_time + contrib_time)),
+          '{:<21}'.format('Total function time:'), '{:>11}'.format('%.4f' % (user_time + age_time + loc_time + commit_time + star_time + repo_time + contrib_time)),
           ' s \033[E\033[E\033[E\033[E\033[E\033[E\033[E\033[E', sep='')
           
     print('Total GitHub GraphQL API calls:', '{:>3}'.format(sum(QUERY_COUNT.values())))
