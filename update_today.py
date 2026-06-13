@@ -239,9 +239,18 @@ def svg_overwrite(filename, age_data, commit_data, star_data, repo_data, contrib
 
 def commit_counter(comment_size):
     filename = 'cache/' + hashlib.sha256(USER_NAME.encode('utf-8')).hexdigest() + '.txt'
-    with open(filename, 'r') as f: 
-        data = f.readlines()[comment_size:]
-    return sum(int(line.split()[2]) for line in data if line.strip())
+    try:
+        with open(filename, 'r') as f: 
+            data = f.readlines()[comment_size:]
+        total = 0
+        for line in data:
+            if line.strip():
+                parts = line.split()
+                if len(parts) > 2 and parts[2].isdigit():
+                    total += int(parts[2])
+        return total
+    except (FileNotFoundError, ValueError, IndexError):
+        return 0
 
 def user_getter(username):
     query_count('user_getter')
@@ -277,7 +286,7 @@ if __name__ == '__main__':
     OWNER_ID, acc_date = user_data
     formatter('account data', user_time)
     
-    age_data, age_time = perf_counter(daily_readme, datetime.datetime(2003, 12, 25))
+    age_data, age_time = perf_counter(daily_readme, datetime.datetime(2004, 09, 03))
     formatter('age calculation', age_time)
     
     total_loc, loc_time = perf_counter(loc_query, ['OWNER', 'COLLABORATOR', 'ORGANIZATION_MEMBER'], 7)
