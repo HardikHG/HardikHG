@@ -362,14 +362,7 @@ if __name__ == '__main__':
     svg_overwrite('dark_mode.svg', repo_data, contrib_data, commit_data, star_data, follower_data, loc_svg_packet)
     svg_overwrite('light_mode.svg', repo_data, contrib_data, commit_data, star_data, follower_data, loc_svg_packet)
     
-    try:
-        with open("README.template.md", "r", encoding="utf-8") as t_file:
-            template_string = t_file.read()
-        with open("README.md", "w", encoding="utf-8") as prod_file:
-            prod_file.write(template_string)
-        print("\n🚀 Production README compiled completely from layout template wrapper successfully.")
-    except FileNotFoundError:
-        print("\n⚠️ Notice: 'README.template.md' was not found.")
+    print("\n✅ SVG files updated successfully!")
         
     print('\033[F\033[F\033[F\033[F\033[F\033[F\033[F\033[F',
           '{:<21}'.format('Total function time:'), '{:>11}'.format('%.4f' % (user_time + loc_time + commit_time + star_time + repo_time + contrib_time)),
