@@ -9,7 +9,7 @@ text, tspan {white-space: pre;}
 </style>
   
 <rect width="1275px" height="690px" fill="#f6f8fa" rx="15"/>
-  <text x="15" y="30" fill="#24292f" font-family="monospace" font-size="10px">
+  <text x="15" y="15" fill="#24292f" font-family="monospace" font-size="10px">
     <tspan x="15" dy="1.2em">                               ++++++++++++++===++======+++++++==+=++=                              </tspan>
     <tspan x="15" dy="1.2em">                             +++++++++=++++=====++====--===============+                            </tspan>
     <tspan x="15" dy="1.2em">                          ++*+++++++++++=======++======-=-================                          </tspan>
